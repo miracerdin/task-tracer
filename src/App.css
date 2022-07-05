@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+}
+.container {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(204, 16, 119),
+    rgb(231, 191, 213)
+  );
+  margin: 3rem auto;
+
+  padding: 2rem;
+  /* overflow: hidden; */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  margin: 10px;
+  width: 300px;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background-color: purple;
+  margin: 2rem 0;
+}
+.done {
+  border-left: 10px solid rgb(102, 18, 77);
+  text-decoration: line-through;
+  background-color: darkgrey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.task {
+  background: #f4f4f4;
+  margin: 0.7rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  word-wrap: break-word;
+}
+.task-row {
+  max-width: 200px;
+  word-wrap: break-word;
+}
+@media (min-width: 616px) {
+  .header {
+    width: 600px;
+    text-align: center;
+  }
+  .task {
+    width: 600px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .task-row h3 {
+    width: 500px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  .task-row p {
+    text-align: left;
+  }
+}
+@media (min-width: 1000px) {
+  .header {
+    width: 900px;
+    text-align: center;
+  }
+  .task {
+    width: 900px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .task-row h3 {
+    width: 800px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  .task-row p {
+    text-align: left;
+  }
+}
