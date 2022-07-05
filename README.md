@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Click Here To See The Page](https://task-tracer.vercel.app/).
+[Click Here To See The Page](https://task-tracer.vercel.app/).
 
 ## Available Scripts
 
