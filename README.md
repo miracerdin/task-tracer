@@ -47,6 +47,7 @@ $ npm start
 ```
 
 ## Illustrations
+![task tracker](https://user-images.githubusercontent.com/99042499/178967379-2ba673ed-5451-4461-86d0-5fdb825d12b9.gif)
 
 ## Project Skeleton
 
