@@ -2,69 +2,128 @@
 
 [Click Here To See The Page](https://task-tracer.vercel.app/).
 
-## Available Scripts
+# Project: Recipe App
 
-In the project directory, you can run:
+[Click to See](https://recipe-app-two-nu.vercel.app/)
+Simple recipe app created with React.js
 
-### `yarn start`
+## Table of contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Getting Started with Create React App](#getting-started-with-create-react-app)
+- [Project: Recipe App](#project-recipe-app)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Illustrations](#illustrations)
+  - [Project Skeleton](#project-skeleton)
+  - [Objective](#objective)
+    - [At the end of the project, i will be able to;](#at-the-end-of-the-project-i-will-be-able-to)
+  - [Steps to Solution](#steps-to-solution)
+  - [Notes](#notes)
+  - [Contact](#contact)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## General info
 
-### `yarn test`
+You can enter a task in this project. The tasks you enter are saved in LocalStorage. In this way, you can see your saved tasks when you enter later. When you delete it, it is also deleted from Localstorage. You can cross out the tasks you have completed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `yarn build`
+- HTML 5
+- CSS 3
+- Bootstrap 5.2
+- Javascript
+- React
+- useState, useEffect,
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project, install it locally using npm:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ git clone https://github.com/miracerdin/task-tracker.git
+$ npm install
+$ npm start
+```
 
-### `yarn eject`
+## Illustrations
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project Skeleton
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+ Task Tracker App
+|
+|----readme.md         # Given to the students (Definition of the project)
+SOLUTION
+├── public
+│     └── index.html
+├── src
+|    ├── assets
+│    ├── components
+│    │       ├── header
+│    │       │     ├── Form.js
+│    │       │     └── style.js
+│    │       ├── navbar
+│    │       |    ├── Navbar.js
+│    │       |      └── style.js
+│    │       ├── Recipe.jsx
+│    │       ├── RecipeList.jsx
+│    ├── pages
+│    │       ├── about
+│    │       │     ├── About.js
+│    │       │     └── style.js
+│    │       ├── details
+│    │       │     ├── Details.js
+│    │       │     └── style.js
+│    │       ├── login
+│    │       │     ├── Login.js
+│    │       │     └── style.js
+│    │       ├── home
+│    │       |      ├── Home.js
+│    │       |      ├── RecipeCard.js
+│    │       |      └── style.js
+│    │       ├── notfound
+│    │       │     ├── NotFound.jsx
+│    │       │     └── style.js
+│    ├── router
+│    │       └── PrivateRouter.jsx
+│    ├── App.js
+│    ├── App.css
+│    ├── index.js
+│    └── index.css
+├── package.json
+└── yarn.lock
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Objective
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Build a Recipe App using ReactJS.
 
-## Learn More
+### At the end of the project, i will be able to;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- improve coding skills within HTML & CSS & JS & ReactJS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-### Code Splitting
+## Steps to Solution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Step 1: Create React App using `npx create-react-app recipe-app`
 
-### Analyzing the Bundle Size
+- Step 2: Signup `https://developer.edamam.com/edamam-docs-recipe-api` and get api key.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Step 3 : Using api key and `fetch` for getting data from `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&mealType=${meal}`.
 
-### Making a Progressive Web App
+- Step 4: i used css framework Bootstrap.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Step 5: Added project gif to my project and README.md file.
 
-### Advanced Configuration
+## Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- You can add make it yourself just work hard.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![LinkedIn](https://www.linkedin.com/in/mirac-erdin/)
+![Gmail](mailto:miracerdin@gmail.com)
+![Phone Number](+90 531 383 9138)
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
