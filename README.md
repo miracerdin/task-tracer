@@ -1,11 +1,7 @@
-# Getting Started with Create React App
-
-[Click Here To See The Page](https://task-tracer.vercel.app/).
 
 # Project: Recipe App
+[Click Here To See The Page](https://task-tracer.vercel.app/).
 
-[Click to See](https://recipe-app-two-nu.vercel.app/)
-Simple recipe app created with React.js
 
 ## Table of contents
 
